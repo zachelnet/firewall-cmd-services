@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>minidlna</short>
+  <description>This opens up minidlan for http (8200), dlna/upnp.</description>
+  <port protocol="tcp" port="8200"/>
+  <port protocol="udp" port="1900"/>
+  <port protocol="udp" port="41038"/>
+</service>
