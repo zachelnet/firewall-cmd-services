@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>xrdp Server</short>
+  <description>This opens up xrdp for rdp (3389/tcp/udp)</description>
+  <port protocol="tcp" port="3389"/>
+  <port protocol="udp" port="3389"/>
+</service>
